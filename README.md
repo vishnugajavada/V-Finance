@@ -401,3 +401,20 @@ This project is currently maintained as a personal software project. Licensing t
 V-Finance is a working personal finance application with transaction management, accounts, budgets, recurring payments, analytics, import/export, personal finance tools, PWA support, and backup/restore workflows implemented.
 
 The project is ready for continued development and real-world testing. Device-specific browser behavior and platform-native features should be evaluated separately from the core application.
+
+## 👤 Author
+
+**Gajavada Vishnu**
+M.Tech Integrated Software Engineering — VIT Vellore (2021–2026)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vishnu%20Gajavada-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/vishnu-gajavada-380631279/)
+[![GitHub](https://img.shields.io/badge/GitHub-vishnugajavada-181717?style=flat&logo=github)](https://github.com/vishnugajavada)
+
+---
+
+
+
+---
+
+> ⭐ If you found this project helpful, consider giving it a star!
+
