@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Build output (GitHub Actions builds and deploys dist/)
+dist/
+
+# Local environment and credentials
+.env
+.env.*
+.npmrc
+.netrc
+.credentials/
+.auth/
+/credentials/
+/secrets/
+credentials.json
+secrets.json
+auth.json
+tokens.json
+*credential*
+*api-key*
+*api_key*
+*apikey*
+*.secret
+*.secret.*
+*.pem
+*.key
+*.p12
+*.pfx
+*FreeLLMAPI*
+*freellm*
+*free-llm*
+
+# Local IDE settings
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# TypeScript build metadata and generated Vite config output
+*.tsbuildinfo
+/vite.config.js
+/vite.config.d.ts
+
+# Test output and logs
+/coverage/
+*.log
+
+
