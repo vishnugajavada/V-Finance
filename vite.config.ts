@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
 const githubActions = (globalThis as typeof globalThis & { process?: { env?: Record<string, string | undefined> } }).process?.env?.GITHUB_ACTIONS === 'true';
-const base = githubActions ? '/Vfinance-final-tested/' : '/';
+var base = githubActions ? '/V-Finance/' : '/';
 
 export default defineConfig({
   base,
