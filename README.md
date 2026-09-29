@@ -136,30 +136,6 @@ Natural-language and OCR features populate transaction information for review. T
 
 The application is intentionally designed without a required application server or hosted database.
 
-## Architecture
-
-V-Finance follows a local-first browser architecture.
-
-```text
-                    V-Finance
-                        |
-              +---------+---------+
-              |                   |
-          React UI          Browser APIs
-              |                   |
-       +------+-------+     +-----+------+
-       |              |     |            |
-   Feature Logic   Services  Speech      Files
-       |              |     |            |
-       +------+-------+     +-----+------+
-              |                   |
-              +---------+---------+
-                        |
-                      Dexie
-                        |
-                   IndexedDB
-```
-
 ### Data Flow
 
 1. The user performs an action in the React interface.
@@ -201,35 +177,7 @@ Important rules include:
 
 For a finance application, a visually correct interface is not enough; the underlying calculations must remain consistent.
 
-## Project Structure
 
-A simplified project structure is:
-
-```text
-V-Finance/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-├── public/
-│   └── icon.svg
-├── src/
-│   ├── components/
-│   ├── services/
-│   ├── styles/
-│   ├── db/
-│   ├── types/
-│   └── ...
-├── tests/
-├── index.html
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
-├── vitest.config.ts
-├── README.md
-├── TEST-RESULTS.md
-├── START-VFINANCE.bat
-└── START-VFINANCE.ps1
-```
 
 ## Getting Started
 
